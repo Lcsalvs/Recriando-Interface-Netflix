@@ -12,7 +12,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
     
 }
@@ -45,7 +45,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa.jpg');
-    height: 500px;
+    height: 600px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -61,8 +61,8 @@ header nav a:hover{
 .filme-principal .titulo{
     margin-top: 25%;
     font-size: 35px;
-    font-family: 'Tre', Arial, sans-serif;
-    text-shadow: 2px 2px 4px rgba(0,0,0,.45)
+    font-family: 'Helvetica', Arial, sans-serif;
+   
 }
 
 .botao{
@@ -91,11 +91,27 @@ header nav a:hover{
 }
 
 .filme-principal .container{
-    width: 80%;
+    width: 70%;
 }
+
 
 .box-filme{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-filmes{
+    margin-top: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.detalhes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 22px;
 }
